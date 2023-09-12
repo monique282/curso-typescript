@@ -15,5 +15,6 @@ function showResult(result: number) : void {
         console.log(`The result is ${result} and it's even!`);
     } else {
         console.log(`The result is ${result} and it's even!`);
+        
     }
 }
