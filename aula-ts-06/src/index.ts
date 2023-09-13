@@ -6,7 +6,7 @@ const game: {
     };
     title: string;
     publisher: string;
-    launch?: string;
+    launch?: string | Date;
 } = {
     id: 1,
     platform: {
@@ -26,7 +26,7 @@ const games: {
     };
     title: string;
     publisher: string;
-    launch?: string;
+    launch?: string | Date;
 }[] = [game];
 
 function play(game: {
@@ -37,7 +37,7 @@ function play(game: {
     };
     title: string;
     publisher: string;
-    launch?: string;
+    launch?: string | Date;
 }) {
     // runs the game
     console.log(game);
